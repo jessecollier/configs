@@ -34,7 +34,7 @@ logger "[$$] [$0] git installed"
 logger "[$$] [$0] setting up chef"
 mkdir /srv
 cd /srv && git clone https://github.com/jessecollier/configs.git
-chef-solo -c /srv/configs/chef/solo.rb
+chef-solo -c /srv/configs/chef/config.rb
 logger "[$$] [$0] chef complete"
 
 
